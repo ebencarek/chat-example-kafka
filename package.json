@@ -1,0 +1,10 @@
+{
+    "name": "chat-example-kafka",
+    "version": "0.0.1",
+    "description": "example chat app with kafka",
+    "dependencies": {
+        "express": "^4.15.2",
+        "node-rdkafka": "^2.6.1",
+        "socket.io": "^2.2.0"
+    }
+}
