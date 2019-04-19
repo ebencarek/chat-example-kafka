@@ -2,7 +2,20 @@
 
 This is a demo chat application modified from the sample app from https://socket.io/get-started/chat/ to use Apache Kafka for distributing chat messages. This allows multiple instances of the application talk to each other by connecting to the same Kafka cluster.
 
-To run this example:
+First download the source code.
+
+If you are on Mac OS High Sierra / Mojave, you must set the following environment variables before installing the node packages:
+```
+$ export CPPFLAGS=-I/usr/local/opt/openssl/include
+$ export LDFLAGS=-L/usr/local/opt/openssl/lib
+```
+
+Then run:
+```
+$ npm install
+```
+
+The following steps assume you have Apache Kafka installed locally.
 
 First start ZooKeeper:
 ```
